@@ -24,3 +24,7 @@ https://www.toptal.com/developers/gitignore/api/pycharm+all
 
 ###How to run basic things in allure report
 ```pytest tests/crud/test_create_booking.py --alluredir=allure_result -s ```
+
+
+###How to clean allure report
+```allure generate --clean```
